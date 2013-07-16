@@ -1,0 +1,17 @@
+/sources/project/target
+/sources/target
+
+/sources/eduentitymine-proc/target
+/sources/eduentitymine-proc/.idea_modules
+/sources/eduentitymine-proc/.idea
+/sources/eduentitymine-proc/project/target
+/sources/eduentitymine-proc/project/project/target
+/sources/eduentitymine-proc/data
+
+/sources/eduentitymine-view/target
+/sources/eduentitymine-view/.idea_modules
+/sources/eduentitymine-view/.idea
+/sources/eduentitymine-view/project/target
+/sources/eduentitymine-view/project/project/target
+
+/docs

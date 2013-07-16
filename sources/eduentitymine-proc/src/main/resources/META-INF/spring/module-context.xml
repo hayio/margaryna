@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:gate="http://gate.ac.uk/ns/spring"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd
+           http://gate.ac.uk/ns/spring
+           http://gate.ac.uk/ns/spring.xsd">
+
+    <context:annotation-config/>
+
+    <gate:init gate-home="WEB-INF" user-config-file="WEB-INF/user.xml">
+        <gate:preload-plugins>
+            <value>WEB-INF/ANNIE</value>
+            <value>http://example.org/gate-plugin</value>
+        </gate:preload-plugins>
+    </gate:init>
+
+</beans>

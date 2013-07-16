@@ -1,0 +1,1 @@
+name := "eduentitymine-view"
